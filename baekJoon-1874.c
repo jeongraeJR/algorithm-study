@@ -8,6 +8,7 @@ void push(int *stack, int value){
 }
 
 void pop(int *stack) {
+    if(top == -1) exit(0);
     stack[top--] = -1;
 }
 
